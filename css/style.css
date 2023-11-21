@@ -7,10 +7,19 @@
 
 #about {
    background-image: url(../images/bg_nuage.jpg); 
+   background-size: cover;
+   background-position: center;
+   
    
 
 }
     
-.imagedeux {
+.container  .carre {
+
+    width: 200px;
+    height: 200px; 
+   
     
 }
+
+
