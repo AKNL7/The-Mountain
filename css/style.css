@@ -1,5 +1,16 @@
-#home{
+#home {
     background-image: url("../images/bg_header.jpg");
+    background-size: cover;
     width:100vw;
     height: 100vh;
+}
+
+#about {
+   background-image: url(../images/bg_nuage.jpg); 
+   
+
+}
+    
+.imagedeux {
+    
 }
