@@ -13,6 +13,13 @@
    
 
 }
+
+.logo_img {
+    width: 100px;
+    height: 65px;
+    margin-top: 8%;
+    margin-right: 2%;
+}
     
 .container  .carre {
 
@@ -22,4 +29,40 @@
     
 }
 
+#history {
+    background-image: url("../images/bg_appareil_photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#contact{
+    background-image: url("../images/bg_newsletter.jpg");
+   
+}
+
+#contact > div {
+    background-color: rgba(44, 43, 43, 0.103);
+}
+
+
+.logo > p {
+    font-size: 35px;
+}
+
+@media (max-width: 991px) {
+    #logo {
+        
+        flex-direction: column;
+    }
+ #photo-tablette {
+        display:block !important;
+    }
+    
+    
+#navette, #san-francisco {
+        display: none !important;
+    }
+
+   
+}
 
