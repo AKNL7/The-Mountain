@@ -1,7 +1,7 @@
 #home {
     background-image: url("../images/bg_header.jpg");
     background-size: cover;
-    width:100vw;
+    /* width:100vw; */
     height: 100vh;
 }
 
@@ -64,5 +64,19 @@
     }
 
    
+}
+
+@media (max-width: 35em) {
+    #features_articles {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+    }
+
+    #about_boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
